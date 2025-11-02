@@ -27,5 +27,4 @@ func main() {
 	//2d array
 	// nums := [2][2]int{{4, 5}, {6, 7}}
 	// fmt.Println(nums)
-
 }
