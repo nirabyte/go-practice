@@ -6,7 +6,7 @@ import (
 
 func main() {
 	//dynamic array
-	// var nums []int
+	var nums []int
 	// fmt.Println(nums == nil)
 	// fmt.Println(len(nums))
 
