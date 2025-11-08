@@ -1,12 +1,10 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
 	//dynamic array
-	var nums []int
+	// var nums []int
 	// fmt.Println(nums == nil)
 	// fmt.Println(len(nums))
 
@@ -48,6 +46,7 @@ func main() {
 	// var nums2 = []int{1, 2}
 	// fmt.Println(slices.Equal(nums1, nums2))
 
-	var nums = [][]int{{1, 3, 5}, {4, 5, 7}}
-	fmt.Println(nums)
+	// var nums = [][]int{{1, 3, 5}, {4, 5, 7}}
+	// fmt.Println(nums)
+	fmt.Println("test")
 }
