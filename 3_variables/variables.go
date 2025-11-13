@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 	// var name string = "golang"
-	// var name = "golang"
+	var name = "golang"
 	// var isAdult = true
 	// var age = 30
 	// age := 25
-
+	fmt.Println(name)
 	// var name string
 	// name = "golang"
 
