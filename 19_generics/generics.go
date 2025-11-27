@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func PrintSlice[T any](items []T) { //if you want specific types to allow use T int | string
+func PrintSlice[T comparable](items []T) { //if you want specific types to allow use T int | string
 	for _, item := range items {
 		fmt.Println(item)
 	}
@@ -15,20 +15,21 @@ func PrintSlice[T any](items []T) { //if you want specific types to allow use T 
 //			fmt.Println(item)
 //		}
 //	}
-type stack[T any] struct {
-	elements []T
-}
+//LIFO
+// 
+// type stack[T any] struct {
+// 	elements []T
+// }
 
 func main() {
 	// nums:= []int{1,2,3}
 
-	// names := []string{"golang", "java"}
+	names := []string{"golang", "java"}
 	// // PrintStringSlice(names)
-	// PrintSlice(names)
+	PrintSlice(names)
 	// PrintSlice(nums)
-	//LIFO
-myStack := stack[string]{
-	elements: []string{"go", "java"},
-}
-fmt.Println(myStack)
+// myStack := stack[string]{
+// 	elements: []string{"go", "java"},
+// }
+// fmt.Println(myStack)
 }
